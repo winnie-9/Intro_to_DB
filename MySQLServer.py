@@ -8,7 +8,7 @@ def create_database(host_name, database_name, user_name, user_password):
         connection = mysql.connector.connect(
             host= "localhost",
             user= "root",
-            password= "Joeymadeit.9"
+            password= "are you God?"
         )
         cursor = connection.cursor()
         cursor.execute(f"CREATE DATABASE IF NOT EXISTS alx_book_store ")
@@ -23,6 +23,6 @@ if __name__ == "__main__":
     host_name = "localhost"
     database_name = "alx_book_store"
     user_name = "root"
-    user_password = "Joeymadeit.9"
+    user_password = "are you God?"
 
     create_database(host_name, database_name, user_name, user_password)
